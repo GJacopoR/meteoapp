@@ -1,0 +1,21 @@
+@import "./../../globals/global.scss";
+
+.LoginModal{
+    position: absolute;
+    top: 0;
+    background-color: #2222;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+
+    &__formContainer{
+        background-color: $base-light-gray;
+        height: 30vh;
+        width: 80vw;
+        border-radius: 8px;
+    }
+}

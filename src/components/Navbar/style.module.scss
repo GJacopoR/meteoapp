@@ -1,0 +1,17 @@
+@import "./../../globals/global.scss";
+
+.Navbar{
+    background-color: $base-dark;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__right{
+        text-decoration: none;
+    }
+
+    &__left{
+        display: flex;
+    }
+}
